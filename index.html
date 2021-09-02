@@ -9,7 +9,7 @@
 
 <body>
 
-  <div class="row">
+  <div style="padding-top: 1%" class="row">
     <div class="col-75">
       <div class="container">
         <form action="/action_page.php">
@@ -99,6 +99,33 @@
     </div>
     <div class="col-25">
       <div class="container">
+        <form>
+          <label for="program">Choose a Program:</label>
+          <select id="program" name="program">
+            <option value=",mcatMentoring">MCAT Mentoring</option>
+            <option value="mcatStudyMaterials">MCAT Study Materials</option>
+            <option value="undergradScienceTutoring">Undergrad Science Tutoring</option>
+            <option value="addmissions">Medical School Admissions Mentoring</option>
+          </select>
+          <label for="package">Choose a Package:</label>
+          <select id="package" name="package">
+            <option value="platinum">Platinum</option>
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="elite">Elite</option>
+          </select>
+          <label for="timeline">Choose a Timeline:</label>
+          <select id="timeline" name="timeline">
+            <option value="fallLong">Fall Long</option>
+            <option value="fallAccelerated">Fall Accelerated</option>
+            <option value="springShort">Spring Short</option>
+            <option value="springLong">Spring Long</option>
+            <option value="maySummerImmersion">May Summer Immersion</option>
+            <option value="juneSummerImmersion">June Summer Immersion</option>
+            <option value="summerLongTrack">Summer Long Track</option>
+          </select>
+        </form>
+
         <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
         <p><a href="#">Product 1</a> <span class="price">$15</span></p>
         <p><a href="#">Product 2</a> <span class="price">$5</span></p>
